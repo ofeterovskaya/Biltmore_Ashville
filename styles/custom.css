@@ -1,0 +1,78 @@
+.ui-bar-a {
+    background: #356724;
+    text-shadow:#b36b00;
+    color: #ffe0b3;}
+
+.ui-footer p {
+font-size: 12px;
+margin: 0;
+padding: 3px 15px;
+background: #ffe0b3;
+text-shadow:#b36b00;
+}
+.ui-content{
+	background:#fbf4ea;
+}
+img{width:50%;
+height:inherit;
+display: block;
+margin: auto;
+border-radius: 20px;
+box-shadow: 4px 2px 4px 0 #b36b00, 0 3px 5px 0 #b36b00;
+}
+h2{
+	text-align: center;
+	color:#805500;
+}
+p{
+	overflow:visible;
+}
+
+.ui-link-inherit{
+	background-color:#ffebcc;
+	opacity: 0.9;
+		}
+.ui-link-inherit:hover {
+	background-color:#805500;
+	
+}
+.ui-link-inherit:hover h1{
+	color: #ffe0b3;
+}
+.ui-link-inherit img{
+	margin-top:10px;
+	border-radius: 5px;
+}
+.ui-link-inherit h1{	
+	color:#805500;
+	}
+.ul li h4,h5,p{
+padding-left: 2%;	
+}
+.ui-btn{margin-top: 5px;}
+.ui-btn-up-a {
+	border: 1px solid #cccccc /*{a-bup-border}*/;
+
+  background: black /*{a-bup-background-color}*/;
+
+	font-weight: bold;
+
+	color: #2f3e46 /*{a-bup-color}*/;
+
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #ffffff /*{a-bup-shadow-color}*/;
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{a-bup-background-start}*/), to( #f1f1f1 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+
+	background-image: -webkit-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/);
+ /* Chrome 10+, Saf5.1+ */
+
+	background-image:    -moz-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* FF3.6 */
+
+	background-image:     -ms-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* IE10 */
+
+	background-image:      -o-linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	        background-image:         linear-gradient( #ffffff /*{a-bup-background-start}*/, #f1f1f1 /*{a-bup-background-end}*/);
+}
+.ui-collapsible-heading-status h2{
+	color: #805500;
+}
